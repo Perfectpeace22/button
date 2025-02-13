@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(222, 135, 176);
+}
+header{
+    display: flex;
+}
+nav {
+    display: flex;
+    gap: 300px;
+}
+
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 50px;    
+}
+
+.navicons{
+    display: flex;
+    gap: 40px;
+
+}
+
+.navbar{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 22px;
+    font-size: 20px;
+    width: 100px;
+    transition: 0.5s;
+    border: none;
+    margin: 50px;
+    
+}
+.button:hover{
+    width: 300px;
+}
+.column{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 22px;
+    font-size: 20px;
+    transition: 0.5s;
+    border: none;
+    margin: 50px;
+}
+.column:hover{
+    background-color:blue;
+}
+.box{
+background-color:rgb(0, 132, 255);
+color: aliceblue;
+padding:10px 22px ;
+font-size:20px ;
+margin: 50px;
+transition: ease-in .5s;
+border: none;
+}
+.box:hover{
+    background-color: blue;
+    transform: scale(2,5);
+
+}
+.footerLogo{
+    display: flex;
+    
+    
+}
+.footerLogo1 {
+    display: flex;
+
+}
+
+ol {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 50px;  
+    justify-content: center;
+    
+     
+}
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    gap:20px
+}
+.footericon{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    gap:10px
+}
